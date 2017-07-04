@@ -8,6 +8,21 @@ https://www.themoviedb.org/documentation/api
 https://electron.atom.io/ 
 https://www.gitkraken.com/ 
 
+CSS
+http://getbem.com/introduction/
+http://sass-lang.com/guide
 
+NPM app Package store 
+https://www.npmjs.com/ 
 
+Task auto Build tool
+http://gulpjs.com/
+
+UI UX 
+https://dribbble.com/
+
+Best Practices
+Angular JS 2
+Cache Technique 
+Progressive web apps 
 
