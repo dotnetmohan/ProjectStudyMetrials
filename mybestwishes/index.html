@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MyBestWishes-Special Christmas greetings</title>
+    <link rel="icon" href="assets/images/favicon.png" type="image/png">
+    <!-- Material Icon CDN -->
+
+    <!-- Path of the materialize.min.css file -->
+
+    <!-- Custom css file path -->
+    <link rel="stylesheet" href=" style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+
+    <meta name="description" content="We wish you and your family a Merry Christmas and A Happy New Year" />
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" value="We wish you and your family a Merry Christmas and A Happy New Year">
+    
+    <!-- Open Graph data -->
+    <meta property="og:title" content="MyBestWishes" />
+    <meta property="og:type" content="We wish you and your family a Merry Christmas and A Happy New Year" />
+    <meta property="og:url" content="http://www.mybestwishes.com/" />
+    <meta property="og:image" content="http://www.mybestwishes.com/images/christmas-card.jpg" />
+    <meta property="og:description" content="We wish you and your family a Merry Christmas and A Happy New Year" />
+
+
+    <script>
+        function edValueKeyPress() {
+            var edValue = document.getElementById("srch-term");
+            var s = edValue.value;
+
+            var lblValue = document.getElementById("lblName");
+            lblValue.innerText = "-" + s;
+
+            //var s = $("#edValue").val();
+            //$("#lblValue").text(s);    
+        }
+    </script>
+</head>
+</head>
+
+<body>
+    <div id="snow">
+        <div id="container">
+            <div id="card-container">
+                <div class="col-wrapper">
+                    <div class="col col-1">
+                        <div class="item">
+                            <div class="item-img">
+                                <img src="images/Christmas_wishes1.jpg">
+                            </div>
+                            <div class="item-desc">
+                                <p>Special Christmas greetings to a person who is just so very special. We wish you and your
+                                    family a Merry Christmas and A Happy New Year. The blessings of peace, the beauty of
+                                    hope, the spirit of love, the comfort of faith, may these be your gifts this Christmas.</p>
+                                <p class="item-heading" style="text-align:right">Yours
+                                    <label id="lblName">name</label>
+                                </p>
+                                <div class="input-group add-on">
+                                    <input class="form-control" style="padding: 2px; font-size: 18px"
+                                      onKeyPress="edValueKeyPress()"
+                                      onKeyUp="edValueKeyPress()"
+                                     placeholder="Enter Your Name" name="srch-term" id="srch-term"
+                                        type="text">
+                                    <div class="input-group-btn">
+                                        <nav class="container">
+                                            <a href="#" class="buttons" tooltip="Google+"></a>
+                                            <a href="#" class="buttons" tooltip="Twitter"></a>
+                                            <a href="#" class="buttons" tooltip="Facebook"></a>
+                                            <a class="buttons" tooltip="Share" href="#"></a>
+                                        </nav>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
